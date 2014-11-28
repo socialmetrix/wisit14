@@ -27,7 +27,7 @@ object SocketServer {
 
     println(s"""
         |SocketServer localhost:$PORT
-        |Source file: $FILE
+        |Source file: ${file}
         |
         |""".stripMargin)
 
@@ -46,7 +46,7 @@ object SocketServer {
       val line = lines.next
 
       val info = if (line.length() > 30)
-          line.substring(0, 30) + " ...")
+          line.substring(0, 30) + " ..."
         else
           line
       

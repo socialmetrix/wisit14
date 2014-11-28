@@ -73,6 +73,9 @@ object StreamProcessor {
     val invFreq = frequence.map(_.swap)
 
     // Tomas las 20 mayores y las imprime
+    println
+    println
+    println("=" * 30)
     invFreq.top(20).foreach(println)
 
     }
