@@ -13,5 +13,6 @@ Este es el código fuente que acompaña la presentación en [WISIT14](http://wis
 - Obtener los lenguajes de programación más hablados
 - Por usuario, por url, por localización
 
-###Download Slides
+###Slides
 
+[Slides disponible acá](http://www.slideshare.net/socialmetrix/tutorial-en-apache-spark-clasificando-tweets-en-realtime)
